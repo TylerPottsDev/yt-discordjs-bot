@@ -1,0 +1,19 @@
+{
+  "name": "ghost-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+	  "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "Tyler Potts <hello@tylerpotts.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
