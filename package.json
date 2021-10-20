@@ -4,12 +4,15 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-	  "dev": "nodemon bot.js"
+    "dev": "nodemon bot.js"
   },
   "keywords": [],
   "author": "Tyler Potts <hello@tylerpotts.co.uk>",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/builders": "^0.7.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
     "discord.js": "^13.2.0",
     "dotenv": "^10.0.0"
   },
