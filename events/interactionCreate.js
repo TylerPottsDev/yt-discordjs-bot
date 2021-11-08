@@ -1,6 +1,5 @@
 module.exports = {
 	name: "interactionCreate",
-	once: true, // REMOVE IN NEXT TUTORIAL
 	async execute(interaction) {
 		if (!interaction.isCommand()) return;
 
