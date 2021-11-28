@@ -4,8 +4,8 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("ping")
 		.setDescription("Pong!"),
-	async execute(interation) {
-		interation.reply({
+	async execute(interaction) {
+		interaction.reply({
 			content: "Pong!",
 			ephemeral: true
 		});
